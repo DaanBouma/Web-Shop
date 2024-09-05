@@ -1,0 +1,11 @@
+button {
+    &.G\/webshop\/button {
+        background-color: transparent;
+        border: none;
+        color: var(--WEBSHOP-BUTTON-COLOR);
+    }
+    &.G\/webshop\/input {
+        background-color: white;
+        border: 1px solid white;
+    }
+}

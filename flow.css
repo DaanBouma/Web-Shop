@@ -1,0 +1,45 @@
+:root {
+  --WEBSHOP-BACKGROUND: black;
+  --WEBSHOP-BUTTON-COLOR: white;
+  --WEBSHOP-LINE: white;
+}
+
+div.G\/webshop\/line-left {
+  border-left: 1px solid var(--WEBSHOP-LINE);
+}
+
+button.G\/webshop\/button {
+  background-color: transparent;
+  border: none;
+  color: var(--WEBSHOP-BUTTON-COLOR);
+}
+button.G\/webshop\/input {
+  background-color: white;
+  border: 1px solid white;
+}
+
+body.G\/webshop {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+input.G\/webshop\/input {
+  background-color: white;
+  border: none;
+  color: white;
+}
+input.G\/webshop\/input:focus {
+  border: none;
+  outline: none;
+}
+
+div.G\/webshop\/icon {
+  color: white;
+}
+
+nav.G\/webshop\/nav {
+  background-color: var(--WEBSHOP-BACKGROUND);
+}
+
+/*# sourceMappingURL=flow.css.map */

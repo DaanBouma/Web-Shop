@@ -1,0 +1,11 @@
+input {
+    &.G\/webshop\/input {
+        background-color: white;
+        border: none;
+        color: white;
+        &:focus {
+            border: none;
+            outline: none;
+        }
+    }
+}
