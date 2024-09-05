@@ -1,7 +1,7 @@
 :root {
   --WEBSHOP-BACKGROUND: black;
   --WEBSHOP-BUTTON-COLOR: white;
-  --WEBSHOP-LINE: white;
+  --WEBSHOP-LINE: rgb(255, 255, 255);
 }
 
 div.G\/webshop\/line-left {
@@ -27,7 +27,7 @@ body.G\/webshop {
 input.G\/webshop\/input {
   background-color: white;
   border: none;
-  color: white;
+  color: black;
 }
 input.G\/webshop\/input:focus {
   border: none;
@@ -35,7 +35,7 @@ input.G\/webshop\/input:focus {
 }
 
 div.G\/webshop\/icon {
-  color: white;
+  color: black;
 }
 
 nav.G\/webshop\/nav {
