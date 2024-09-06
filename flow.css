@@ -1,7 +1,14 @@
 :root {
-  --WEBSHOP-BACKGROUND: black;
+  --WEBSHOP-BACKGROUND: #191919;
   --WEBSHOP-BUTTON-COLOR: white;
   --WEBSHOP-LINE: rgb(255, 255, 255);
+  --WEBSHOP-SUB-BACKGROUND: #232222;
+}
+
+p.G\/framework\/subtext {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
 }
 
 div.G\/webshop\/line-left {
@@ -37,9 +44,15 @@ input.G\/webshop\/input:focus {
 div.G\/webshop\/icon {
   color: black;
 }
+div.G\/webshop\/subicon {
+  color: rgb(255, 255, 255);
+}
 
 nav.G\/webshop\/nav {
   background-color: var(--WEBSHOP-BACKGROUND);
+}
+nav.G\/webshop\/subnav {
+  background-color: var(--WEBSHOP-SUB-BACKGROUND);
 }
 
 /*# sourceMappingURL=flow.css.map */
