@@ -1,5 +1,14 @@
 div {
-    &.G\/webshop\/line-left {
-        border-left: 1px solid var(--WEBSHOP-LINE);
-    }
+  &.G\/web\/line-top {
+    border-top: 1px solid var(--G-LINE)
+  }
+  &.G\/web\/line-bottom {
+    border-bottom: 1px solid var(--G-LINE)
+  }
+  &.G\/web\/line-left {
+    border-left: 1px solid var(--G-LINE)
+  }
+  &.G\/web\/line-right {
+    border-right: 1px solid var(--G-LINE)
+  }
 }

@@ -1,58 +1,69 @@
 :root {
-  --WEBSHOP-BACKGROUND: #191919;
-  --WEBSHOP-BUTTON-COLOR: white;
-  --WEBSHOP-LINE: rgb(255, 255, 255);
-  --WEBSHOP-SUB-BACKGROUND: #232222;
+  --G-WHITE: #FFFFFF;
+  --G-LINE: #ECEFF1;
+  --G-COLORBORDER: #D2D8DC;
+  --G-SECUNDAIRY-TEXT: #808F9A;
+  --G-PRIMARY-TEXT: #2A3236;
+  --G-GRAPH-GREEN: #7DA270;
+  --G-GRAPH-BLUE: #709DD1;
+  --G-POSITIVE: #67AD5B;
+  --G-GRAPH-RED: #D05C49;
+  --G-BUTTON-ICON: #FFFFFF;
+  --G-BUTTON-HOVER: #EFF2F3;
+  --G-BUTTON-TEXT: #E0E0E0;
+  --G-BUTTON-COLOR: #6A7B88;
+  --G-COLOR-BACKGROUND: #F6F7F8;
 }
 
-p.G\/framework\/subtext {
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 400;
+body {
+  background-color: var(--G-COLOR-BACKGROUND);
 }
 
-div.G\/webshop\/line-left {
-  border-left: 1px solid var(--WEBSHOP-LINE);
+div.G\/web\/card {
+  outline: 1px var(--G-COLORBORDER) solid;
+  background-color: var(--G-WHITE);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  overflow: hidden;
 }
 
-button.G\/webshop\/button {
-  background-color: transparent;
-  border: none;
-  color: var(--WEBSHOP-BUTTON-COLOR);
+p.G\/web\/primary {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
 }
-button.G\/webshop\/input {
-  background-color: white;
-  border: 1px solid white;
+p.G\/web\/secundary {
+  font-family: Roboto, sans-serif;
+  color: var(--G-SECUNDAIRY-TEXT);
 }
-
-body.G\/webshop {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
+p.G\/positive {
+  color: #67AD5B !important;
 }
-
-input.G\/webshop\/input {
-  background-color: white;
-  border: none;
-  color: black;
-}
-input.G\/webshop\/input:focus {
-  border: none;
-  outline: none;
+p.G\/negative {
+  color: var(--G-GRAPH-RED) !important;
 }
 
-div.G\/webshop\/icon {
-  color: black;
+div.G\/web\/line-top {
+  border-top: 1px solid var(--G-LINE);
 }
-div.G\/webshop\/subicon {
-  color: rgb(255, 255, 255);
+div.G\/web\/line-bottom {
+  border-bottom: 1px solid var(--G-LINE);
+}
+div.G\/web\/line-left {
+  border-left: 1px solid var(--G-LINE);
+}
+div.G\/web\/line-right {
+  border-right: 1px solid var(--G-LINE);
 }
 
-nav.G\/webshop\/nav {
-  background-color: var(--WEBSHOP-BACKGROUND);
+div.G\/web\/frame {
+  background: rgb(37, 37, 37);
+  background: linear-gradient(90deg, rgb(37, 37, 37) 0%, rgb(62, 62, 62) 100%);
 }
-nav.G\/webshop\/subnav {
-  background-color: var(--WEBSHOP-SUB-BACKGROUND);
+
+div.G\/web\/icon {
+  color: var(--G-BUTTON-ICON);
+}
+div.G\/web\/icon-color {
+  color: var(--G-BUTTON-COLOR);
 }
 
 /*# sourceMappingURL=flow.css.map */
